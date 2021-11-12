@@ -1,9 +1,9 @@
 const ls = new LS();
 console.log(ls);
 
+const weatherLocation = ls.getLocationData()
 
-
-const weather = new Weather("Tallinn");
+const weather = new Weather(weatherLocation);
 
 const ui = new UI();
 console.log(ui);
